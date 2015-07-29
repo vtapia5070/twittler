@@ -1,0 +1,78 @@
+
+body > img {
+	width: 100%;
+	height: auto;
+	position: fixed;
+	z-index: -100;
+	min-height: 100%;
+	min-width: 1040px;
+}
+body {
+	font-family: Lucida Sans, Trebuchet, sans-serif;
+}
+.nav {
+	padding: 10px;
+	background-image: url("images/logo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #fff;
+	min-width: 100%;
+	border-radius: 5px;
+	position: fixed;
+	clear: both;
+}
+/*
+Tweets
+*/
+.new-tweets {
+	text-decoration: underline;
+	color: #004c68;
+	text-align: center;
+	font-weight: bold;
+}
+.new-tweets:hover {
+	background-color: #e0e8ec;
+	font-size: 20px;
+	font-weight: bolder;
+	color: #0084b4;
+	text-decoration: none;
+}
+.tweets-primary {
+	float: right;
+	height: auto;
+	width: 50%;
+	margin: 7% 1.5%;
+	border-radius: 5px;
+}
+.tweets,
+.tweets-primary div {
+	background-color: #fff;
+	border:  1px #cce4f0;
+	border-style: solid none solid none;
+	height: auto;
+	padding: 20px 10px 10px 10px;
+
+}
+.tweets div:hover {
+	text-decoration: underline;
+	color: #0084b4;
+}
+h3 {
+	color: #0084b4;
+	font-weight: 900;
+	font-size: 30px;
+}
+.user-info {
+	float: left;
+	height: auto;
+	width: 25%;
+	margin: 7% 1.5%;
+	border-radius: 5px;
+	background-color: #fff;
+	text-align: center;
+	padding: 50px;
+}
+.username {
+	font-size: 20px;
+	color: #66757f;
+}
